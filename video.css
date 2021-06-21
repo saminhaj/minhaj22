@@ -1,0 +1,474 @@
+
+img{
+    width: 100%;
+    max-width: 100%;
+}
+body,h1,h2,h3,h4,h5,h6,a,span,p{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+	overflow-x:hidden ;
+}
+.header {
+    background: #020202;
+}
+.header-icon {
+}
+.header-icon a {
+}
+.header-icon a img {
+    width: 160px;
+    line-height: 60px;
+    position: relative;
+    top: 11px;
+}
+.header-icon a span {
+}
+.primary-menu {
+}
+.primary-menu ul {
+    text-align: right;
+    margin-bottom: 0;
+}
+.primary-menu ul li {
+    display: inline-block;
+}
+.primary-menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    line-height: 76px;
+    padding: 0 20px;
+    font-size: 17px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.primary-menu ul li a:hover {
+    color: #e20613;
+}
+
+/* banner */
+.banner{
+    background: url(https://twotweak.com/wp-content/uploads/2020/03/wat-wij-doen.jpg) no-repeat center;
+    background-size: cover;
+    padding: 200px 0;
+	
+}
+
+.overly{
+	position: relative;
+	z-index: 1;
+}
+.overly::before{
+	content: "";
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, .4);
+	z-index: -1;
+}
+
+.banner-text {
+	color: #fff;
+	text-align: center;
+}
+.banner-text h2 {
+	font-size: 55px;
+	font-weight: 600;
+}
+.banner-text p {
+	font-size: 23px;
+	font-weight: 400;
+	margin: 22px 0;
+}
+.btn1 {
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 2px solid #fff;
+	color: #fff;
+	font-size: 20px;
+    transition: .5s;
+    display: inline-block;
+}
+.btn2 {
+	background: #e20613;
+	color: #fff;
+	padding: 10px 20px;
+	margin-left: 45px;
+	font-size: 20px;
+    transition: .5s;
+    display: inline-block;
+
+}
+.btn1:hover {
+	text-decoration: none;
+	background: #000;
+	color: #fff;
+	border-color: #000;
+}
+.btn2:hover {
+	text-decoration: none;
+	color: #fff;
+	background: #000;
+}
+
+/* slider */
+.slider {
+	background: #e20613;
+	padding: 50px 0;
+}
+.slider h2 {
+	text-align: center;
+	color: #fdff;
+}
+
+/* service */
+
+.service {
+	padding: 93px 0;
+	text-align: center;
+}
+.service h2 {
+	font-size: 40px;
+}
+.service p {
+	font-size: 20px;
+	padding: 20px 0;
+}
+
+
+
+/* haynab */
+
+.haynab{
+    background: url(https://i.ibb.co/9qLFBZL/twotweak-com-836-marine-dock.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+    position: relative;
+    z-index: 1;
+}
+.haynab::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(67, 47, 110, .9);
+    z-index: -1;
+}
+.haynab-text{
+    color: #fff;
+}
+.haynab-text h2 {
+	font-size: 40px;
+}
+.haynab-text p {
+	font-size: 20px;
+	padding: 20px 0;
+}
+.haynab-text a {
+	margin-left: 0;
+}
+.haynab-img{
+	transition: .5s;
+}
+.haynab-img:hover{
+	transform: scale(.9);
+
+}
+/* reclaim */
+.reclaim{
+    background: url(https://i.ibb.co/7rMLshQ/twotweak-com-571-wat-wij-doen-1024x439.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+    position: relative;
+    z-index: 1;
+
+}
+.reclaim::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(48, 109, 173, .9);
+    z-index: -1;
+}
+.reclaim img{
+	transition: .5s;
+}
+.reclaim img:hover{
+	transform: scale(.9);
+}
+.reclaim-text{
+    color: #fff;
+
+}
+.reclaim-text h2{
+    font-size: 40px;
+
+}
+.reclaim-text p{
+    font-size: 20px;
+	padding: 20px 0;
+}
+.reclaim-text a{
+    margin-left: 0;
+}
+/* ond */
+
+.ond{
+    background: url(https://i.ibb.co/9qLFBZL/twotweak-com-836-marine-dock.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+    position: relative;
+    z-index: 1;
+}
+.ond::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(240, 172, 56, .9);
+    z-index: -1;
+}
+.ond-text{
+    color: #fff;
+}
+.ond-text h2 {
+	font-size: 40px;
+}
+
+.ond-text p {
+	font-size: 20px;
+	padding: 20px 0;
+}
+.ond-text a {
+	margin-left: 0;
+}
+.ond-text h6 {
+	color: #000;
+	padding-top: 26px;
+	font-weight: 400;
+}
+.ond-img{
+	transition: .5s;
+}
+.ond-img:hover{
+	transform: scale(.9);
+}
+
+/* wat */
+.wat {
+	text-align: center;
+	padding: 100px 0;
+}
+.wat h2{}
+.wat i {
+	display: inline-block;
+	color: #f0ac38;
+	font-size: 30px;
+	margin: 20px 0;
+}
+.wat-box{}
+.wat-box p {
+	background: #f6f6f6;
+	padding: 32px;
+	font-size: 19px;
+	margin-bottom: 40px;
+}
+.wat-box img {
+	border-radius: 50%;
+}
+.wat-box-right h2 {
+	font-size: 27px;
+}
+.wat-box-right p {
+	font-size: 18px;
+	background: none;
+	padding: 0;
+	padding-top: 10px;
+}
+
+/* samen */
+
+.samen{
+    background: url(https://twotweak.com/wp-content/uploads/2020/03/klant-meeting.jpg) no-repeat center;
+    background-size: cover;
+    padding: 100px 0;
+    
+}
+.samen-text {
+	background-color: #fff;
+	padding: 97px;
+	text-align: center;
+}
+.samen-text h2 {
+	font-style: italic;
+	text-transform: uppercase;
+	font-size: 35px;
+}
+.samen-text p {
+	margin-bottom: 50px;
+}
+.samen-text textarea {
+	width: 100%;
+	background: #f6f6f6;
+	border: navajowhite;
+	padding-left: 24px;
+	height: 162px;
+	margin-bottom: 23px;
+	box-shadow: 7px 7px 10px #ddd;
+}
+.samen-text input {
+	width: 100%;
+	background: #f6f6f6;
+	border: none;
+	box-shadow: 7px 7px 10px #ddd;
+	padding: 10px 0;
+	padding-left: 20px;
+}
+.check {
+	text-align: left;
+	position: relative;
+	left: -449px;
+	top: 0;
+}
+.samen-text a{
+    width: 100%;
+    margin-left: 0;
+}
+
+/* our service */
+
+.our-service{}
+
+.our-img {
+	position: relative;
+}
+.line {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: rgba(0, 0, 0, .8);
+	opacity: 0;
+	transition: .5s;
+	height: 100%;
+	width: 0;
+	text-align: center;
+}
+.line a {
+	display: block;
+	font-size: 43px;
+	color: #fff;
+}
+.our-img:hover .line{
+    visibility: visible;
+    opacity: 1;
+    width: 20%;
+}
+.minhaj {
+	margin-left: 0px;
+	padding: 0 0px;
+    position: relative;
+}
+
+.befored{
+	position: relative;
+}
+.befored::before{
+	content: "";
+	height: 100%;
+	width: 50%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, .4);
+}
+
+/* footer */
+.footer {
+	background: #000;
+	color: #fff;
+	padding: 85px 0;
+}
+.footer-text p {
+	color: #656565;
+	margin-bottom: 6px;
+}
+.footer-text h2 {
+	font-size: 16px;
+	color: #b7b6b6;
+}
+.footer-icon h3 {
+	font-size: 14px;
+	padding-bottom: 5px;
+}
+.footer-icon p {
+	margin-bottom: 0;
+}
+.footer-icon h2 {
+	font-size: 19px;
+	padding-top: 10px;
+	margin-bottom: 0;
+}
+.footer-icon span {
+	font-size: 39px;
+	padding-left: 14px;
+	padding-top: 17px;
+	display: inline-block;
+    color: #5a4ba2;
+}
+.footer-icon {
+	background: #fff;
+	color: #000;
+	border-radius: 6px;
+}
+
+.social-menu li {
+	display: inline-block;
+	margin-left: -4px;
+}
+.social-menu ul li a {
+	color: #000;
+	background: #3a3a3a;
+	display: inline-block;
+	padding: 10px 16px;
+	font-size: 19px;
+	transition: .5s;
+}
+.social-menu ul li a:hover{
+	background-color: #e20613;
+}
+.social-right ul li a {
+	color: #656565;
+	padding: 0 20px;
+	border-left: 1px solid #656565;
+}
+.social-right ul li a:hover{
+	text-decoration: none;
+}
+.social-right ul li {
+	display: inline-block;
+}
+.social-right ul li:first-child a{
+	border: none;
+}
+.social {
+	padding: 50px 0;
+	border-top: 1px solid #656565;
+	padding-bottom: 0;
+}
+.fot {
+	padding: ;
+	padding-bottom: 53px;
+}
